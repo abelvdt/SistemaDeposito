@@ -9,6 +9,7 @@ namespace DepositoClases
         public string Nombre { get; set; }
         public int Cod_Articulo { get; set; }
         public string Descripción { get; set; }
-        public enum Tipo_Deposito { Estantes, Aislado, Refrigerado}
+        public enum Tipo_Deposito { Publico, Privado, Refrigerado}
+        public int Cantidad_Unitaria { get; set; }
     }
 }
